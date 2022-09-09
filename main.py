@@ -17,12 +17,12 @@ else:
   print("error device in the file")
   sys.exit()
 
-os.system('pip install -U FNBOT2')
+os.system('pip install -U ZUPPA')
 os.system('clear')
 
-import FNBOT2
+import ZUPPA
 
-client = FNBOT2.PartyBot(
+client = ZUPPA.PartyBot(
   device_id=env_vars['DEVICE_ID'],
   account_id=env_vars['ACCOUNT_ID'],
   secret=env_vars['SECRET']
